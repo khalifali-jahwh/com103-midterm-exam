@@ -15,7 +15,7 @@ while monitor_name == "":
         continue
     
     # Trim whitespace
-    monitor_name = monitor_name
+    monitor_name = monitor_name.strip()
     
     # Check if empty or all spaces
     if monitor_name == "":
@@ -37,7 +37,7 @@ while monitor_name == "":
         continue
     
     # Split and validate full name parts
-    name_parts = monitor_name
+    name_parts = monitor_name.split()
 
     # Allow at least one name (first name only is OK)
     if len(name_parts) < 1:
