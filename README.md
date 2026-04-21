@@ -50,5 +50,5 @@ The program ensures:
 - 50% or more → ALMOST THERE!
 - Below 50% → NEEDS WORK!
 
-## 👤 Author
+## 👤 Author 
 Ali, Khalif G.
